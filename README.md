@@ -52,6 +52,32 @@ Use Stripe's standard test card:
 | Deployment | Vercel, Render |
 | Version Control | Git, GitHub |
 
+## Application Preview
+
+### Movie Discovery
+
+![Movie discovery home page](screenshots/02-home-movie-grid.png)
+
+### Theater & Show Selection
+
+![Movie details with theaters and show timings](screenshots/03-movie-shows.png)
+
+### Seat Selection
+
+![Seat selection with booked and selected seats](screenshots/04-seat-selection.png)
+
+### Payment & Booking Confirmation
+
+| Stripe Test Checkout | Confirmed Booking |
+| --- | --- |
+| ![Stripe test checkout](screenshots/05-stripe-test-checkout.png) | ![Confirmed booking ticket](screenshots/06-confirmed-booking-ticket.png) |
+
+### Admin Management
+
+| Theater Approval | Movie Management |
+| --- | --- |
+| ![Admin theater approval and blocking](screenshots/07-admin-theater-approval.png) | ![Admin add movie form](screenshots/08-admin-add-movie.png) |
+
 ## Core Features
 
 ### User
