@@ -15,6 +15,19 @@ Use the shared demo accounts below to explore the deployed application without c
 
 > **Demo environment:** These are shared public accounts created specifically for portfolio/demo use. Data may change as visitors interact with the application. Please do not use real personal or payment information.
 
+## Test Payment
+
+The deployed Stripe integration runs in **Test Mode**, so you can complete the booking flow without making a real payment.
+
+Use Stripe's standard test card:
+
+- **Card number:** `4242 4242 4242 4242`
+- **Expiry:** any future date
+- **CVC:** any 3 digits
+- **Name / billing details:** any test values
+
+> No real charge is created when using Stripe Test Mode. Please do not enter real card information in the demo.
+
 ## Project Highlights
 
 - Complete booking journey: movie discovery → show selection → seat selection → Stripe Checkout → payment verification → booking.
