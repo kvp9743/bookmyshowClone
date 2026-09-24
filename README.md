@@ -120,19 +120,20 @@ Main collections: User, Movie, Theater, Show, and Booking. Mongoose populate is 
 
 ```text
 bookmyshowClone/
-├── frontend/
-│   ├── src/
-│   ├── package.json
-│   ├── vite.config.js
-│   └── vercel.json
-├── backend/
-│   ├── Controller/
-│   ├── DBconnect/
-│   ├── Middleware/
-│   ├── Model/
-│   ├── Routes/
-│   ├── package.json
-│   └── server.js
+├── BookMyShow/
+│   ├── client/
+│   │   ├── src/
+│   │   ├── package.json
+│   │   ├── vite.config.js
+│   │   └── vercel.json
+│   └── server/
+│       ├── Controller/
+│       ├── DBconnect/
+│       ├── Middleware/
+│       ├── Model/
+│       ├── Routes/
+│       ├── package.json
+│       └── server.js
 └── README.md
 ```
 
@@ -147,7 +148,7 @@ Frontend and backend are also maintained in separate repositories because they a
 
 ### Backend
 ```bash
-cd backend
+cd BookMyShow/server
 npm install
 npm run dev
 ```
@@ -164,7 +165,7 @@ stripeSecretKey=your_stripe_secret_key
 
 ### Frontend
 ```bash
-cd frontend
+cd BookMyShow/client
 npm install
 npm run dev
 ```
