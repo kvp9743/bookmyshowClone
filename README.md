@@ -4,6 +4,17 @@ A full-stack MERN movie-ticket booking application with authentication, theater/
 
 [Live Demo](https://bookmyshow-frontend-ten.vercel.app) · [Backend Deployment](https://bookmyshow-backend-lrkh.onrender.com) · [Frontend Repo](https://github.com/kvp9743/bookmyshow-frontend) · [Backend Repo](https://github.com/kvp9743/bookmyshow-backend)
 
+## Demo Credentials
+
+Use the shared demo accounts below to explore the deployed application without creating a new account.
+
+| Role | Email | Password |
+| --- | --- | --- |
+| Regular User / Theater Owner | `ross@gmail.com` | `ross123` |
+| Administrator | `admin@gmail.com` | `admin123` |
+
+> **Demo environment:** These are shared public accounts created specifically for portfolio/demo use. Data may change as visitors interact with the application. Please do not use real personal or payment information.
+
 ## Project Highlights
 
 - Complete booking journey: movie discovery → show selection → seat selection → Stripe Checkout → payment verification → booking.
